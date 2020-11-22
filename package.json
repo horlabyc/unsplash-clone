@@ -2,13 +2,15 @@
   "name": "unsplash",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "dev": "vite"
   },
   "dependencies": {
-    "vue": "^3.0.2"
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
+    "@vue/cli-plugin-router": "^4.5.9",
     "@vue/cli-service": "^4.5.9",
     "@vue/compiler-sfc": "^3.0.2",
     "sass": "^1.29.0",
