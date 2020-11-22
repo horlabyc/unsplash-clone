@@ -1,7 +1,11 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <Photo />
+    <Photo 
+      image="https://res.cloudinary.com/horlabyc/image/upload/v1594847543/image_vbs2ir.svg"
+      title="Jordan Okeke"
+      metaData="Pretoria, South Africa"
+    />
   </div>
 </template>
 
