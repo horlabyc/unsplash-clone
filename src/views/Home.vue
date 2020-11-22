@@ -1,36 +1,19 @@
 <template>
   <div class="home">
-    <Photo 
-      image="https://res.cloudinary.com/horlabyc/image/upload/v1594847543/image_vbs2ir.svg"
-      title="Jordan Okeke"
-      metaData="Pretoria, South Africa"
-    />
-    <Photo 
-      image="https://res.cloudinary.com/horlabyc/image/upload/v1594847543/image_vbs2ir.svg"
-      title="Jordan Okeke"
-      metaData="Pretoria, South Africa"
-    />
-    <Photo 
-      image="https://res.cloudinary.com/horlabyc/image/upload/v1594847543/image_vbs2ir.svg"
-      title="Jordan Okeke"
-      metaData="Pretoria, South Africa"
-    />
-    <Photo 
-      image="https://res.cloudinary.com/horlabyc/image/upload/v1594847543/image_vbs2ir.svg"
-      title="Jordan Okeke"
-      metaData="Pretoria, South Africa"
-    />
+    <SearchBox />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Photo from '../components/shared/photo.vue';
+import SearchBox from '../components/shared/searchBox.vue';
 
 export default {
   name: 'Home',
   components: {
-    Photo
+    Photo,
+    SearchBox
   }
 }
 </script>
