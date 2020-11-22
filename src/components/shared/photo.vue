@@ -22,8 +22,8 @@
   .image__wrapper {
     background-size: cover;
     border-radius: 5px;
-    width: 10rem;
-    height: 15rem;
+    width: 14rem;
+    height: 18rem;
     display: flex;
     background-repeat: no-repeat;
     background-position: 50%;
