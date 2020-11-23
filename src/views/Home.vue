@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
   .home {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr)); */
   }
 </style>

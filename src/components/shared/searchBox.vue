@@ -1,10 +1,12 @@
 <template>
   <div class="searchBox">
+    <span>
     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9E9E9E" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
       <circle cx="10" cy="10" r="7" />
       <line x1="21" y1="21" x2="15" y2="15" />
     </svg>
+    </span>
     <input v-model="searchTerm" type="text" placeholder="Search for photo"/>
     <p>{{ searchTerm }}</p>
   </div>
@@ -27,12 +29,14 @@
 <style lang="scss" scoped>
   .searchBox {
     position: relative;
-    svg {
+    display: flex;
+    align-items: center;
+    span {
       position: absolute;
-      top: 23px;
-      left: 34px;
+      left: 16px;
     }
     input {
+      width: 100%;
       background: white;
       outline: none;
       border: none;
